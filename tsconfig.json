@@ -4,6 +4,9 @@
     "module": "commonjs",
     "strict": true,
     "esModuleInterop": true,
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    "types": [
+      "bun-types" // add Bun global
+    ]
   }
 }

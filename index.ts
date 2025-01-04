@@ -1,4 +1,4 @@
-class SimpleCache<K, V> {
+export class SimpleCache<K, V> {
     private storage: Map<K, V>;
 
     constructor() {
